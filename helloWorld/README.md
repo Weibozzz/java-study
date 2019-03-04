@@ -22,3 +22,28 @@ java Demo // 虚拟机做的事
 set classpath=【文件路径】；
 java Demo
 ```
+## exercise 
+### demo1
+默认int 两个int变量相加 默认会转换 最大值2的32次方减1
+### demo2 
+两个byte类型变量相加可能会损失精度 -128~127之间
+### demo3
+算术运算 
+```java
+ int x = 6370;
+        x = x /1000 * 1000;
+        System.out.println(x); // 6000
+```
+### demo4
+赋值动作会默认强制转换
+```java
+class Operate {
+    public static void main(String[] args){
+        short x = 3;
+        //x += 4; //7   先计算 底层会默认计算,相当于 x = (short)(x + 4); // 强制转换
+        x = x + 4; //  x是不确定变量 报错
+        System.out.println(x);
+    }
+}
+
+```
