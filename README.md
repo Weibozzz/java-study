@@ -66,3 +66,8 @@ class Operate {
 3 << 2 =12 相当于 3 * 2（2） = 12；
 
 ![http://images.liuweibo.cn/image/common/左右移_1551797265128_297511_1551797272435.png](http://images.liuweibo.cn/image/common/左右移_1551797265128_297511_1551797272435.png)
+
+## array
+### demo1
+数组格式 遍历 找出最大值
+### demo2 
