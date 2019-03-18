@@ -74,7 +74,39 @@ class Operate {
 数组排序 选择排序
 ### demo3 demo4
 数组应用 进制转换
+[![http://images.liuweibo.cn/image/common/array进制计算_1552638384346_29449_1552889597183.png](http://images.liuweibo.cn/image/common/array进制计算_1552638384346_29449_1552889597183.png)](![http://images.liuweibo.cn/image/common/array进制计算_1552638384346_29449_1552889597183.png](http://images.liuweibo.cn/image/common/array进制计算_1552638384346_29449_1552889597183.png))
 
+## faceObject
+面向对象
+### demo1
+面向对象
+### demo2
+引用数据类型参数引用 会改变原来
+### demo3
+封装 private
+### demo4
+构造函数
+### demo5
+static 外部也可以访问 不在栈和堆存储，在方法区存储，也叫对象方法共享数据. 静态方法只能访问静态成员
+### demo6
+主函数
+```java
+/**
+ * public:因为权限必须是最大的
+ * static:不需要对象的，直接用珠海市所属类名调用即可
+ * main:函数名，还是关键字，只是一个jvm识别的固定的名字
+ * string[] args:这是主函数的参数列表，而且元素都是字符串类型 运行的时候可以
+ * 带上参数 如：java MainDemo haha lili 
+ */
+class MainDemo {
+    public static void main(String[] args){ // new String[0]
+        System.out.println(args); // [Ljava.lang.String;@15db9742
+        // System.out.println(args[0]);
+        // System.out.println(args);
+
+    }
+}
+```
 
 ## function
 函数的重载
