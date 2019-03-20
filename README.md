@@ -110,6 +110,68 @@ class MainDemo {
 ### demo7
 - 静态代码块。作用：用于给类初始化
 - 构造代码块。可以给所有对象初始化
+### demo8
+静态基本使用 工具类的提出，privite私有的使用，文档注释javadoc
+### demo9
+设计模式 单例
+```java
+class Single{// 类一加载，对象就已经存在了
+    private static Single s = new Single();
+    private Single(){};
+    public static Single getInstance(){
+        return s;
+    }
+}
+class Single2{// 类加载进来，没有对象，只有调用了getInstance方法，才会创建对象
+                // 延迟加载形式 懒汉式
+    private static Single s = null;
+    private Single(){};
+    public static Single getInstance(){
+        if(s == null){
+            return s =  new Single2();
+        }
+        return s;
+    }
+}
+class SingleDemo{
+    public static void main(String[] args){
+        Single ss = Single.getInstance();
+    }
+}
+```
+
+### demo10
+基本继承 单继承 多继承
+### demo11
+- this代表本类
+- super代表父类
+- 相同变量或者方法，子类权限必须大于等于父类权限，才会覆盖父类方法
+- 静态子涵覆盖静态，或被静态覆盖
+- 继承 // super() // 默认调用父类 super()
+
+### demo12
+final关键字
+- 继承弊端：因为会覆盖，打破封装性
+- final 是一个修饰符，可以修饰类，方法，变量
+- final 修饰的方法不可以被覆盖
+- final 修饰的变量是一个常量，只能赋值一次
+
+### demo13
+抽象类 例子
+
+### demo14
+接口 interface
+- 接口的成员都是公共的权限。
+- 修饰符可以省略，interface权限会自动加上去，但是不建议，阅读性不强
+
+### demo15
+实现 implements
+
+
+### demo16
+多实现
+- java多继承记性了改良，变为了多实现
+
 
 ## function
 函数的重载
