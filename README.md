@@ -211,6 +211,8 @@ final关键字
 自定义异常，要么继承Exception,要么继承RuntimeException
 ### demo3
 异常处理的捕捉形式 try{}catch(){}finally{}
+### demo4
+异常例子
 ## function
 函数的重载
 1. 同一个类
