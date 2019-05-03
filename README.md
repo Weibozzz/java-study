@@ -209,6 +209,8 @@ final关键字
 [java文档](http://www.matools.com/api/java8)
 ### demo2
 自定义异常，要么继承Exception,要么继承RuntimeException
+### demo3
+异常处理的捕捉形式 try{}catch(){}finally{}
 ## function
 函数的重载
 1. 同一个类
