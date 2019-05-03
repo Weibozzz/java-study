@@ -206,6 +206,7 @@ final关键字
 ### demo22
 - 面向对象(Object类-equals方法覆盖)
 - 03-面向对象(Object类-hashCode方法)
+- 04-面向对象(Object类-getClass方法)
 ## error
 ### demo1
 异常处理
