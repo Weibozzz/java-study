@@ -2,6 +2,7 @@
  * 02-面向对象(Object类-equals方法覆盖)
  * 03-面向对象(Object类-hashCode方法)
  * 04-面向对象(Object类-getClass方法)
+ * 05-面向对象(Object类-toString方法)
  */
 class Persion {
     private int age;
@@ -18,8 +19,11 @@ class Persion {
         return this.age == p.age;
     }
 
-    public int hashCode() {
-        return age;
+    //    public int hashCode() {
+//        return age;
+//    }
+    public String toString() {
+        return "Persion:" + age;
     }
 }
 
@@ -35,8 +39,10 @@ class Demo {
 //        System.out.println(p1.equals(p2));
 //        System.out.println(p1);
 //        System.out.println(Integer.toHexString(p1.hashCode()));
-        Class class1 = p1.getClass();
-        Class class2 = p1.getClass();
-        System.out.println(class1 == class2);
+//        Class class1 = p1.getClass();
+//        Class class2 = p1.getClass();
+//        System.out.println(class1 == class2);
+        System.out.println(p1);
+        System.out.println(p1.getClass().getName() + '@' + Integer.toHexString(p1.hashCode()));
     }
 }
