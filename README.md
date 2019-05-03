@@ -204,7 +204,8 @@ final关键字
 - 直接访问外部类中的内部类中的成员  
 - 如果内部类是静态的 相当于外部的
 ### demo22
-面向对象(Object类-equals方法覆盖)
+- 面向对象(Object类-equals方法覆盖)
+- 03-面向对象(Object类-hashCode方法)
 ## error
 ### demo1
 异常处理
