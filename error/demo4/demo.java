@@ -16,6 +16,11 @@ class MaoYanException extends Exception {
         super(msg);
     }
 }
+class NoplanException extends Exception {
+    NoplanException(String msg) {
+        super(msg);
+    }
+}
 
 class Computer {
     private int state = 2; // 正常运行状态 0
@@ -45,7 +50,7 @@ class Teacher {
         comp = new Computer();
     }
 
-    public void prelect() throws MaoYanException {
+    public void prelect() throws NoplanException {
         try {
             comp.run();
             System.out.println(name + "讲课");
@@ -55,8 +60,10 @@ class Teacher {
             prelect(); // 开始讲课
         } catch (MaoYanException e) {
             System.out.println(e.toString());
-            test();
-            throw e;
+//            test();
+//            throw e;
+            // 可以对电脑进行维修
+            throw new NoplanException("课时进度无法完成，原因："+e.getMessage());
         }
     }
 
@@ -70,8 +77,9 @@ class Demo {
         Teacher t = new Teacher("毕老师");
         try {
             t.prelect();
-        } catch (MaoYanException e) {
-            System.out.println("......");
+        } catch (NoplanException e) {
+            System.out.println(e.toString()+"......");
+            System.out.println("换人");
         }
     }
 }
