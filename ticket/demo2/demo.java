@@ -16,7 +16,7 @@ class Test extends Thread {
 
     public void run() {
         for (int x = 0; x < 10; x++) {
-            System.out.println(name + "...x=" + x + ";name=" + getName());
+            System.out.println(name + "...x=" + x + ";name=" + Thread.currentThread().getName());
         }
     }
 }
@@ -27,5 +27,6 @@ class Demo {
         Test t2 = new Test("xiaoqiang");
         t1.start();
         t2.start();
+        System.out.println("over:" + Thread.currentThread().getName());
     }
 }
