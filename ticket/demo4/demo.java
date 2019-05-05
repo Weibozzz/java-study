@@ -4,11 +4,14 @@
  */
 class Ticket implements Runnable {
     private int num = 100;
+    Object obj = new Object();
     public void run (){
         while (true){
-            if(num>0){
-                try{Thread.sleep(10);}catch (InterruptedException e){};
-                System.out.println(Thread.currentThread().getName()+"...sale..."+num--);
+            synchronized (obj){
+                if(num>0){
+                    try{Thread.sleep(10);}catch (InterruptedException e){};
+                    System.out.println(Thread.currentThread().getName()+"...sale..."+num--);
+                }
             }
         }
     }
