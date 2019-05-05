@@ -11,7 +11,8 @@ class Test extends Thread {
     private String name;
 
     Test(String name) {
-        this.name = name;
+//        this.name = name;
+        super(name);
     }
 
     public void run() {
