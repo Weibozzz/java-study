@@ -230,6 +230,12 @@ final关键字
 ### demo2
 单线程实例=》多线程
 - 创建多线程的第一种方式，继承Thread类
+### demo3
+- 创建多线程的第二中方式：实现Runnable接口
+ * 1.定义类实现Runnable接口
+ * 2.覆盖接口的run方法
+ * 3.通过THread类创建线程对象，并传递参数
+ * 4.通过start开启线程
 ## 包 package
 ### demo1
 包的基础使用
