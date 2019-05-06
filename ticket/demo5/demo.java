@@ -5,11 +5,11 @@
 class Bank{
     private int sum;
     Object obj = new Object();
-    public void add(int num){
-        synchronized(obj){
+    public synchronized void add(int num){ // 同步函数第二种方式
+//        synchronized(obj){
             sum=sum+num;
             System.out.println("sum="+sum);
-        }
+//        }
     }
 }
 class Cus implements Runnable{
