@@ -250,3 +250,7 @@ final关键字
 ## 包 package
 ### demo1
 包的基础使用
+## thread 多线程通信
+多线程详细看 ticket 卖票示例
+### demo1
+多线程通信示例
