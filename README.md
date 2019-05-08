@@ -262,3 +262,8 @@ final关键字
  * 
  * notify:只能唤醒一个线程，如果只唤醒了本方就没有意义，而且while判断标记+notify会导致死锁。
  * notifyAll:本线程一定会唤醒对方线程
+ 
+dk1.5以后
+ * await();
+ * signal();
+ * signalAll();
