@@ -337,3 +337,10 @@ boolean parseBoolean
 
 ## 自动装箱
 ### demo1 演示自动装箱
+## 例子
+### demo1 字符串数组排序
+- StringBuilder
+- append
+- toString
+- parseInt
+- split
