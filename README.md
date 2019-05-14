@@ -344,3 +344,31 @@ boolean parseBoolean
 - toString
 - parseInt
 - split
+
+## map
+集合特点
+
+- 用于存储对象到容器
+- 集合的长度是可变的
+- 集合中不可以存储基本数据类型
+
+collection的常见方法
+
+- 添加
+    - boolean add(object obj)
+    - boolean addAll(Collection coll)
+- 删除
+    - boolean remove(object obj)
+    - boolean removeAll(Collection coll)
+    - void clear();
+- 判断
+    - boolean contains(object obj)
+    - boolean containsAll(Collection coll)
+    - boolean isEmpty()
+- 获取
+    - int size() 获取元素个数
+    - Iterator iterator() 迭代器
+- 其他
+    - boolean	retainAll(Collection<?> c) 取交集
+    - Object[]	toArray() 将集合转化为数组
+    
