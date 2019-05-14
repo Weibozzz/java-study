@@ -372,3 +372,4 @@ collection的常见方法
     - boolean	retainAll(Collection<?> c) 取交集
     - Object[]	toArray() 将集合转化为数组
     
+### demo1 集合演示1
