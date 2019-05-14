@@ -272,3 +272,27 @@ dk1.5以后
 
 1. 控制循环结束标记
 2. 可以使用interrupt()方法将线程从冻结强制恢复到运行状态
+
+## String
+### StringBuffer
+特点
+
+- 长度是可变的
+- 可以存储不同类型的数据
+- 最终要变成字符串进行处理
+- 可以对字符串进行修改
+
+### StringBuilder
+和 StringBuffer 是一样的,不过 StringBuffer 是同步的，更安全。
+StringBuilder的StringBuilder不能安全使用多线程。 如果需要同步， 那么建议使用StringBuffer 。
+### java.long
+
+- String()
+- String(byte[] bytes)
+- String(byte[] bytes, int offset, int length)
+- String(char[] value)
+
+### demo1 按照字典排序
+练习 按照字典排序
+### demo2 一个字符串在整数中出现的次数
+练习
