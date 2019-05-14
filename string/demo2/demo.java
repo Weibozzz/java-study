@@ -2,7 +2,8 @@ class Demo {
     public static void main(String[] args) {
         // 一个字符串在整数中出现的次数
         String str = "nbaqwqwkqwnbajnbadskksnba";
-        findNba(str, "nba");
+//        findNba(str, "nba");
+        System.out.println(Byte.MAX_VALUE);
     }
 
     public static int findNba(String str, String key) {

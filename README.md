@@ -296,3 +296,44 @@ StringBuilder的StringBuilder不能安全使用多线程。 如果需要同步�
 练习 按照字典排序
 ### demo2 一个字符串在整数中出现的次数
 练习
+
+## 基本包装类型
+
+- Byte
+- Short
+- Integer
+- Long
+- Float
+- Double
+- Character
+- Boolean
+
+### 之间的转化
+基本类型=》字符串
+
+1. 基本类型+ """
+2. 用String类中的静态方法valueOf(基本类型数值)
+
+字符串=》基本类型
+
+1. 使用 xxx parseXxx ("xxx类型的字符串);
+2. 使用intValue()将一个Integer对象转为基本类型
+
+```java
+int parseInt("123");
+long parseLong
+boolean parseBoolean
+//只有Character没有parse方法
+
+```
+
+进制转换
+
+- toBinaryString(int i)
+- toHexString(int i)
+- toOctalString(int i)
+- toString(int i, int radix)
+- parseInt(String s, int radix) // 其他进制转为十进制
+
+## 自动装箱
+### demo1 演示自动装箱
