@@ -376,4 +376,18 @@ collection的常见方法
     - List 有序，存入和取出的顺序一致，元素都有索引，元素可以重复
     - Set 无序，元素不能重复
     
-### demo1 集合演示1
+### demo1 Collection集合演示1
+### demo2 List 演示
+- 添加
+    - void add(index,element)
+    - void add(index,collection)
+- 删除
+    - Object remove(index)
+- 修改
+    - Object set(index,element)
+- 获取
+    - Object get(index)
+    - int indexOf(Object)
+    - lastIndex(Object)
+    
+List集合是可以完成对元素的增删改查
