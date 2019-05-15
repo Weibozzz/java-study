@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 class Demo {
     public static void main(String[] args) {
@@ -13,21 +14,14 @@ class Demo {
         list.add("abc1");
         list.add("abc2");
         list.add("abc3");
-//        System.out.println(list);//[abc1, abc2, abc3]
-        // 2.删除元素
-//        list.remove("abc2");
-//        System.out.println(list);//[abc1, abc3]
-        // 3.清空集合
-//        list.clear();
-        // 4.迭代器
-        Iterator it = list.iterator();
+        ListIterator it = list.listIterator();
         while (it.hasNext()){
             Object obj = it.next();
-//            System.out.println(obj);// 依次打印
-            if(obj.equals("abc2")){ //  java.util.NoSuchElementException
-                list.add("abc99");
+            if(obj.equals("abc2")){
+                it.set("abc99");
+//                it.add("abc99");
             }else {
-                System.out.println("next:"+it.next());
+                System.out.println("hasPrevious:"+it.hasPrevious());
             }
             System.out.println(list);
         }

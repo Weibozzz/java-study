@@ -377,6 +377,7 @@ collection的常见方法
     - Set 无序，元素不能重复
     
 ### demo1 Collection集合演示1
+- 
 ### demo2 List 演示
 - 添加
     - void add(index,element)
@@ -391,3 +392,6 @@ collection的常见方法
     - lastIndex(Object)
     
 List集合是可以完成对元素的增删改查
+
+### demo3 演示Iterator 和 ListIterator<E>
+- iterate遍历的同时不能add，用ListIterator<E>代替
