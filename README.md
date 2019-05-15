@@ -372,4 +372,8 @@ collection的常见方法
     - boolean	retainAll(Collection<?> c) 取交集
     - Object[]	toArray() 将集合转化为数组
     
+- Collection
+    - List 有序，存入和取出的顺序一致，元素都有索引，元素可以重复
+    - Set 无序，元素不能重复
+    
 ### demo1 集合演示1
