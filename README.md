@@ -401,3 +401,8 @@ List集合是可以完成对元素的增删改查
 - iterate遍历的同时不能add，用ListIterator<E>代替
 ### demo4 演示Vector 
 - Vector jdk1.0 之后被Iterator替代
+
+### demo5 演示LinkedList
+- addFirst
+- removeFirst
+- isEmpty
