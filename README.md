@@ -404,5 +404,16 @@ List集合是可以完成对元素的增删改查
 
 ### demo5 演示LinkedList
 - addFirst
+- addLast jdk1.6
+- offsetFirst
+- offsetLast
+
+- getFirst  // 获取但不移除，如果为空，报出异常NoSuchElementException
+- getLast jdk1.6
+- peekFirst // 获取但不移除，如果为空，返回null
+- peekLast
+
 - removeFirst
 - isEmpty
+### demo5 演示ArrayList
+- 提升的Object要转为Persion对象
