@@ -375,9 +375,11 @@ collection的常见方法
 - Collection
     - List 有序，存入和取出的顺序一致，元素都有索引，元素可以重复
     - Set 无序，元素不能重复
-        - HashSet:内部数据结构是哈希表，是不同步的，方法和Collection一样，只有Iterator迭代器
+        - `HashSet`:内部数据结构是哈希表，是不同步的，方法和Collection一样，只有Iterator迭代器
             - linkedHashSet: 有序的
-        - TreeSet:
+        - `TreeSet`:可以对set集合中的元素进行排序，是不同步的
+            判断元素惟一的方式就是根据比较方法的返回值是否是0，是0就是相同元素，不存
+            让元素自身具备比较功能，元素就需要实现`comparable`接口，覆盖`compareTo`方法
     
 ### demo1 Collection集合演示1
 - 
@@ -418,6 +420,8 @@ List集合是可以完成对元素的增删改查
 
 - removeFirst
 - isEmpty
-### demo5 演示ArrayList
+### demo6 演示ArrayList
 - 提升的Object要转为Persion对象
+### demo7 演示TreeSet
+- 字符串比较是按照字典比较的
 
