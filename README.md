@@ -375,6 +375,9 @@ collection的常见方法
 - Collection
     - List 有序，存入和取出的顺序一致，元素都有索引，元素可以重复
     - Set 无序，元素不能重复
+        - HashSet:内部数据结构是哈希表，是不同步的，方法和Collection一样，只有Iterator迭代器
+            - linkedHashSet: 有序的
+        - TreeSet:
     
 ### demo1 Collection集合演示1
 - 
@@ -417,3 +420,4 @@ List集合是可以完成对元素的增删改查
 - isEmpty
 ### demo5 演示ArrayList
 - 提升的Object要转为Persion对象
+
