@@ -424,4 +424,5 @@ List集合是可以完成对元素的增删改查
 - 提升的Object要转为Persion对象
 ### demo7 演示TreeSet
 - 字符串比较是按照字典比较的
+- 复写`java.lang.Comparable`的`compareTo`方法， 字典比较字符串
 

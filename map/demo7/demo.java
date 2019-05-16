@@ -1,18 +1,20 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.TreeSet;
-// 字符串比较是按照字典比较的
+
+// 需要复写comparable
 class Demo {
     public static void main(String[] args) {
         TreeSet ts = new TreeSet();
-        ts.add("abc");
-        ts.add("sadsbc");
-        ts.add("dadbc");
-        ts.add("ssabc");
+        ts.add(new Persion("asdsa", 21));
+        ts.add(new Persion("rewe", 22));
+        ts.add(new Persion("liqwqwst3", 23));
+        ts.add(new Persion("ewew", 24));
 
         Iterator it = ts.iterator();
         while (it.hasNext()) {
-            System.out.println(it.next());
+            Persion p = (Persion) it.next(); //提升的Object要转为Persion对象
+            System.out.println(p.getName() + ":" + p.getAge());
         }
 
     }
