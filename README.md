@@ -393,5 +393,11 @@ collection的常见方法
     
 List集合是可以完成对元素的增删改查
 
+- Vector 内部是数组数据结构，是同步的，增删查询都很慢！
+- ArrayList 内部是素组的数据结构，是不同步的，替代了Vector。查询的速度快
+- LinkedList 内部是链表结构，是不同步的，增删很快，查询慢
+
 ### demo3 演示Iterator 和 ListIterator<E>
 - iterate遍历的同时不能add，用ListIterator<E>代替
+### demo4 演示Vector 
+- Vector jdk1.0 之后被Iterator替代
