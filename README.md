@@ -353,6 +353,10 @@ boolean parseBoolean
 - toCharArray
 - StringBuilder
 
+## demo3  实现星期的对应关系 输入星期一 显示mon
+
+- hashMap
+
 ## map
 集合特点
 
