@@ -345,6 +345,14 @@ boolean parseBoolean
 - parseInt
 - split
 
+## demo2 计算字符串中每个字符出现的次数
+计算字符串中每个字符出现的次数 返回 a(2)b(3)...
+
+- Iterator
+- TreeMap
+- toCharArray
+- StringBuilder
+
 ## map
 集合特点
 
