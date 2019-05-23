@@ -454,3 +454,10 @@ jdk 1.5出现的安全机制
 - 上线 `？extends E:` 接收 `E` 类型或者E的子类型对象。
 - 下线 `？super E:` 接收 `E` 类型或者 `E` 的父类型
 
+## io
+输入输出
+### demo1 输出一个txt文件
+- FileWriter
+- write
+- flush
+- close 
