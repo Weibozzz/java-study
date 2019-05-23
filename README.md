@@ -456,8 +456,11 @@ jdk 1.5出现的安全机制
 
 ## io
 输入输出
+1. FileWriter
 ### demo1 输出一个txt文件
-- FileWriter
+- new FileWriter(String fileName, boolean append) //布尔值的文件名，表示是否附加写入的数据。
 - write
 - flush
 - close 
+- system.getProperty('line.separator'); 获得系统的换行符
+- 异常 throws IOException或者 try catch finally
