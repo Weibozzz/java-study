@@ -337,7 +337,7 @@ boolean parseBoolean
 
 ## 自动装箱
 ### demo1 演示自动装箱
-## 例子
+## example 例子
 ### demo1 字符串数组排序
 - StringBuilder
 - append
@@ -345,7 +345,7 @@ boolean parseBoolean
 - parseInt
 - split
 
-## demo2 计算字符串中每个字符出现的次数
+### demo2 计算字符串中每个字符出现的次数
 计算字符串中每个字符出现的次数 返回 a(2)b(3)...
 
 - Iterator
@@ -353,9 +353,14 @@ boolean parseBoolean
 - toCharArray
 - StringBuilder
 
-## demo3  实现星期的对应关系 输入星期一 显示mon
+### demo3  实现星期的对应关系 输入星期一 显示mon
 
 - hashMap
+
+### demo4 复制一个文件
+
+- FileReader
+- FileWriter
 
 ## map
 集合特点
