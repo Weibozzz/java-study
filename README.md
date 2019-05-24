@@ -374,6 +374,15 @@ boolean parseBoolean
 - BufferedReader
 - BufferedWriter
 
+###demo7 字节复制文件媒体
+
+- FileInputStream;
+- BufferedInputStream;
+- FileOutputStream;
+- BufferedOutputStream;
+- IOException;
+- available 返回从此输入流中可以读取文件大小字节数
+
 ## map
 集合特点
 
