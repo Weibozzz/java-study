@@ -362,6 +362,11 @@ boolean parseBoolean
 - FileReader
 - FileWriter
 
+### demo5 复制一个文件2
+
+- FileReader
+- FileWriter
+
 ## map
 集合特点
 
