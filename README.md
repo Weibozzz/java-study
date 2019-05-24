@@ -393,6 +393,13 @@ boolean parseBoolean
 - System.in
 - System.out
 
+### demo9 对指定目录进行进行深度遍历，并列出
+
+- File
+    - isDirectory
+    - getAbsolutePath
+- StringBuilder
+
 ## map
 集合特点
 
