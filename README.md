@@ -374,7 +374,7 @@ boolean parseBoolean
 - BufferedReader
 - BufferedWriter
 
-###demo7 字节复制文件媒体
+### demo7 字节复制文件媒体
 
 - FileInputStream;
 - BufferedInputStream;
@@ -382,6 +382,16 @@ boolean parseBoolean
 - BufferedOutputStream;
 - IOException;
 - available 返回从此输入流中可以读取文件大小字节数
+
+### demo8 键盘输入输出
+
+- BufferedReader;
+- BufferedWriter;
+- InputStreamReader;
+- OutputStreamWriter;
+- IOException;
+- System.in
+- System.out
 
 ## map
 集合特点
