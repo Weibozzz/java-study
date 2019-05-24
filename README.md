@@ -367,6 +367,13 @@ boolean parseBoolean
 - FileReader
 - FileWriter
 
+### demo6 流复制一个文件
+
+- FileReader
+- FileWriter
+- BufferedReader
+- BufferedWriter
+
 ## map
 集合特点
 
