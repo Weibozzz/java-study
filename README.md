@@ -411,6 +411,14 @@ boolean parseBoolean
     - getProperty
     - store
 
+### demo11 获取指定目录下，指定扩展名的文件，并写入txt
+获取指定目录下，指定扩展名的文件（包含子目录中的）
+这些文件的绝对路径写入到一个文本文件中
+
+- File
+- FilenameFilter
+- BufferedWriter
+
 ## map
 集合特点
 
