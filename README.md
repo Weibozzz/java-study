@@ -400,6 +400,17 @@ boolean parseBoolean
     - getAbsolutePath
 - StringBuilder
 
+### demo10  操作配置文件
+定义功能：获取一个应用程序运行的次数，如果超过5次，给出提示，不让运行程序
+
+- File
+- FileInputStream
+- FileOutputStream
+- Properties
+    - load
+    - getProperty
+    - store
+
 ## map
 集合特点
 
@@ -501,6 +512,12 @@ jdk 1.5出现的安全机制
 输入输出
 1. FileWriter
 2. FileReader
+
+Map
+
+- Hashtable
+    - Properties 特点，键和值都是字符串，可以保存在流中，或者从流获取
+     
 ### demo1 输出一个txt文件
 - new FileWriter(String fileName, boolean append) //布尔值的文件名，表示是否附加写入的数据。
 - write
