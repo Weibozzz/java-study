@@ -1,4 +1,4 @@
-# hello world
+##  hello world
 编写hello.java,使用javac hello.java 生成 class 虚拟机能认识的java文件
 ```java
 // hello.java
@@ -337,87 +337,6 @@ boolean parseBoolean
 
 ## 自动装箱
 ### demo1 演示自动装箱
-## example 例子
-### demo1 字符串数组排序
-- StringBuilder
-- append
-- toString
-- parseInt
-- split
-
-### demo2 计算字符串中每个字符出现的次数
-计算字符串中每个字符出现的次数 返回 a(2)b(3)...
-
-- Iterator
-- TreeMap
-- toCharArray
-- StringBuilder
-
-### demo3  实现星期的对应关系 输入星期一 显示mon
-
-- hashMap
-
-### demo4 复制一个文件
-
-- FileReader
-- FileWriter
-
-### demo5 复制一个文件2
-
-- FileReader
-- FileWriter
-
-### demo6 流复制一个文件
-
-- FileReader
-- FileWriter
-- BufferedReader
-- BufferedWriter
-
-### demo7 字节复制文件媒体
-
-- FileInputStream;
-- BufferedInputStream;
-- FileOutputStream;
-- BufferedOutputStream;
-- IOException;
-- available 返回从此输入流中可以读取文件大小字节数
-
-### demo8 键盘输入输出
-
-- BufferedReader;
-- BufferedWriter;
-- InputStreamReader;
-- OutputStreamWriter;
-- IOException;
-- System.in
-- System.out
-
-### demo9 对指定目录进行进行深度遍历，并列出
-
-- File
-    - isDirectory
-    - getAbsolutePath
-- StringBuilder
-
-### demo10  操作配置文件
-定义功能：获取一个应用程序运行的次数，如果超过5次，给出提示，不让运行程序
-
-- File
-- FileInputStream
-- FileOutputStream
-- Properties
-    - load
-    - getProperty
-    - store
-
-### demo11 获取指定目录下，指定扩展名的文件，并写入txt
-获取指定目录下，指定扩展名的文件（包含子目录中的）
-这些文件的绝对路径写入到一个文本文件中
-
-- File
-- FilenameFilter
-- BufferedWriter
 
 ## map
 集合特点
@@ -538,3 +457,86 @@ Map
 
 - FileReader
 - read() 可以读字符也可以读数组
+
+
+## example 例子
+### demo1 字符串数组排序
+- StringBuilder
+- append
+- toString
+- parseInt
+- split
+
+### demo2 计算字符串中每个字符出现的次数
+计算字符串中每个字符出现的次数 返回 a(2)b(3)...
+
+- Iterator
+- TreeMap
+- toCharArray
+- StringBuilder
+
+### demo3  实现星期的对应关系 输入星期一 显示mon
+
+- hashMap
+
+### demo4 复制一个文件
+
+- FileReader
+- FileWriter
+
+### demo5 复制一个文件2
+
+- FileReader
+- FileWriter
+
+### demo6 流复制一个文件
+
+- FileReader
+- FileWriter
+- BufferedReader
+- BufferedWriter
+
+### demo7 字节复制文件媒体
+
+- FileInputStream;
+- BufferedInputStream;
+- FileOutputStream;
+- BufferedOutputStream;
+- IOException;
+- available 返回从此输入流中可以读取文件大小字节数
+
+### demo8 键盘输入输出
+
+- BufferedReader;
+- BufferedWriter;
+- InputStreamReader;
+- OutputStreamWriter;
+- IOException;
+- System.in
+- System.out
+
+### demo9 对指定目录进行进行深度遍历，并列出
+
+- File
+    - isDirectory
+    - getAbsolutePath
+- StringBuilder
+
+### demo10  操作配置文件
+定义功能：获取一个应用程序运行的次数，如果超过5次，给出提示，不让运行程序
+
+- File
+- FileInputStream
+- FileOutputStream
+- Properties
+    - load
+    - getProperty
+    - store
+
+### demo11 获取指定目录下，指定扩展名的文件，并写入txt
+获取指定目录下，指定扩展名的文件（包含子目录中的）
+这些文件的绝对路径写入到一个文本文件中
+
+- File
+- FilenameFilter
+- BufferedWriter
