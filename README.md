@@ -540,3 +540,15 @@ Map
 - File
 - FilenameFilter
 - BufferedWriter
+
+### demo12 分割文件 合并文件
+
+- FileInputStream;
+- FileOutputStream;
+- IOException;
+- File;
+- SequenceInputStream;
+- Collection;
+- Collections;
+- ArrayList;
+- Enumeration;
