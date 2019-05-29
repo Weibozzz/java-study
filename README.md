@@ -465,6 +465,13 @@ Map
 - getHostName
 - UnknownHostException
 
+### demo2 udp 发送接收
+- DatagramSocket;
+- DatagramPacket;
+- InetAddress;
+- UnknownHostException;
+- IOException;
+
 ## example 例子
 ### demo1 字符串数组排序
 - StringBuilder
