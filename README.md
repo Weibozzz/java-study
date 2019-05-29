@@ -458,6 +458,12 @@ Map
 - FileReader
 - read() 可以读字符也可以读数组
 
+## net
+### demo1 InetAddress
+- InetAddress
+- getHostAddress
+- getHostName
+- UnknownHostException
 
 ## example 例子
 ### demo1 字符串数组排序
