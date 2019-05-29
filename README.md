@@ -480,6 +480,14 @@ Map
 - BufferedReader;
 - InputStreamReader;
 
+### demo4 tcp 聊天
+
+- Socket;
+- ServerSocket;
+- UnknownHostException;
+- OutputStream;
+- IOException;
+- InputStream;
 
 ## example 例子
 ### demo1 字符串数组排序
